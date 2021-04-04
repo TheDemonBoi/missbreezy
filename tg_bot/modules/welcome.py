@@ -96,7 +96,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
                 update.effective_message.reply_text("YEAH! My owner ! Demon is HERE")
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
-                               f"Bot Owner just joined the chat")
+                               f"Demon ! my owner  just joined the chat. serve em well! ")
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
