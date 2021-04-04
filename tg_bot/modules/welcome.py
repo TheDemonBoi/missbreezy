@@ -93,14 +93,14 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                update.effective_message.reply_text("YEAH LEGENDS  IS HERE")
+                update.effective_message.reply_text("YEAH! My owner ! Demon is HERE")
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
                                f"Bot Owner just joined the chat")
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
-                update.effective_message.reply_text("YEAH I SEE PRO PLAYER IS HERE!")
+                update.effective_message.reply_text("YEAH I SEE MY PRO DEV IS HERE!")
 
             # Welcome Sudos
             elif new_mem.id in SUDO_USERS:
@@ -272,7 +272,7 @@ def left_member(bot: Bot, update: Update):
 
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
-                update.effective_message.reply_text("ooo sed legend is gone")
+                update.effective_message.reply_text("ooo sed DEMON is gone")
                 return
 
             # Give the devs a special goodbye
