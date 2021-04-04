@@ -6,6 +6,6 @@ DEPLOY HERE - [Miss Breezy](https://dashboard.heroku.com/new?button-url=https%3A
 # Credits
 
  [LEGEND X](https://t.me/legendx22) for original script of GRANDROBOT this repository is a fork of .
- [Demon]((https://t.me/Anonymous_account1) for further customisation and features !
+ [Demon](https://t.me/Anonymous_account1) for further customisation and features !
 
 
